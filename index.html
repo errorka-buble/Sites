@@ -376,12 +376,12 @@
 
         function playRandomAudio() {
             const sounds = [
-                { file: 'ГС/1.mp3', name: 'Я люблю тебя' },
-                { file: 'ГС/2.mp3', name: 'Скучаю по тебе, солнышко' },
-                { file: 'ГС/3.mp3', name: 'Моя любимая' },
-                { file: 'ГС/4.mp3', name: '*Мурчанье*' },
-                { file: 'ГС/5.mp3', name: '*Чмок*' },
-                { file: 'ГС/6.mp3', name: 'Моя дурашка' }
+                { file: '1.mp3', name: 'Я люблю тебя' },
+                { file: '2.mp3', name: 'Скучаю по тебе, солнышко' },
+                { file: '3.mp3', name: 'Моя любимая' },
+                { file: '4.mp3', name: '*Мурчанье*' },
+                { file: '5.mp3', name: '*Чмок*' },
+                { file: '6.mp3', name: 'Моя дурашка' }
             ];
             const randomSound = sounds[Math.floor(Math.random() * sounds.length)];
             playAudio(randomSound.file, randomSound.name);
